@@ -1,0 +1,57 @@
+header{
+    background: red;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+body{
+    background-color: green;
+}
+
+.combustivel{
+    position: relative;
+    text-align: center;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-style: none;
+}
+
+#gasolina{
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+    transform: translate(-30%, -42.5%);
+    text-transform: uppercase;
+    background: green;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.imagem__bomba{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -6,13 +6,15 @@
 
   <meta charset="utf-8">
   <title>Calculadora de combustivel do Briofita</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
 <header>
 
   <h1>Descubra aqui se é melhor você colocar álcool ou gasolina no seu veiculo</h1>
-  <p>Ultilize PONTO no lugar de VIRGULA</p>
+  <p>Utilize PONTO no lugar de VIRGULA</p>
 
 </header>
 
@@ -23,17 +25,21 @@
 
         <form class="precos">
 
-          <div class="combustivel">
-            <label for="gasolina">Insira o preço da gasolina</label>
-            <input id="gasolina" name="gasolina" type="number" class="input__gasolina" placeholder="preço da gasolina">
+          <div class="box__gasolina">
+            
+            <div class="combustivel">
+              <label for="gasolina"><img class="imagem__bomba" src="pump.png"></label>
+              <input id="gasolina" name="gasolina" type="number" class="input__gasolina" placeholder="preço da gasolina">
+            </div>
+          
           </div>
 
           <div class="combustivel">
-            <label for="alcool">Insira o preço do alcool</label>
+            <label for="alcool"></label>
             <input id="alcool" name="alcool" type="number" class="input__alcool" placeholder="preço do álcool">
           </div>
 
-          <button id="resultado" class="botao">Qual é melhor?</button> 
+          <button id="resultado" class="botao" onclick="calculaPreco()">Qual é melhor?</button> 
 
 
         </form>
@@ -42,9 +48,13 @@
   
   </main>  
 
+  <footer>
+    <p>&copy;Felipe Osorio</p>
+  </footer>
+
 
 </body>
 
-<script src="index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </html>
                  
